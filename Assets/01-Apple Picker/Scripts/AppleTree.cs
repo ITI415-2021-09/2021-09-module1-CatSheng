@@ -31,7 +31,7 @@ public class AppleTree : MonoBehaviour
     void Start()
     {
         //Dropping apples every second
-        invoke("DropApple", 2f);
+        Invoke("DropApple", 2f);
     }
 
     void DropApple()
@@ -40,7 +40,7 @@ public class AppleTree : MonoBehaviour
         
         apple.transform.position = transform.position;
 
-        invoke("DropApple", secondsBetweenAppleDrops);
+        Invoke("DropApple", secondsBetweenAppleDrops);
     }
 
     // Update is called once per frame
