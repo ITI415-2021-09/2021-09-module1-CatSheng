@@ -32,7 +32,7 @@ public class Basket : MonoBehaviour
         //The Camera's z position sets how far to push the mouse into 3D
         mousePos2D.z = -Camera.main.transform.position.z;
 
-        //Convert the point from 2D screen space into 3D game worl space
+        //Convert the point from 2D screen space into 3D game world space
         Vector3 mousePos3D = Camera.main.ScreenToWorldPoint(mousePos2D);
 
         //Move the x position of this Basket to the x position of the Mouse
