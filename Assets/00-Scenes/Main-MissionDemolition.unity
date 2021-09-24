@@ -439,13 +439,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 792234105}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 792234111}
+        m_TargetAssemblyTypeName: MissionDemolition, Assembly-CSharp
+        m_MethodName: SwitchView
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -645,6 +645,7 @@ GameObject:
   - component: {fileID: 792234106}
   - component: {fileID: 792234109}
   - component: {fileID: 792234110}
+  - component: {fileID: 792234111}
   m_Layer: 0
   m_Name: _MainCamera
   m_TagString: MainCamera
@@ -751,6 +752,35 @@ MonoBehaviour:
   cloudScaleMin: 1
   cloudScaleMax: 3
   cloudSpeedMult: 0.5
+--- !u!114 &792234111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792234105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9630d5ccdbbf6194db8bba24b7235b41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uitLevel: {fileID: 2031782711}
+  uitShots: {fileID: 500003147}
+  uitButton: {fileID: 1473746768}
+  castlePos: {x: 50, y: -9.5, z: 0}
+  castles:
+  - {fileID: 6247023252348258661, guid: 6819c526396955140b534fd7b2bd3ef5, type: 3}
+  - {fileID: 7350488521017571932, guid: 3012bc7ac25b4b24b845c4af1d887554, type: 3}
+  - {fileID: 1156772604984536319, guid: cb80d0a1ac474514a8a4c2b74cb14223, type: 3}
+  - {fileID: 2795744567272699516, guid: 19a948a121c062243ab00966d989c555, type: 3}
+  - {fileID: 7777997688194155798, guid: 7757ed0ac877c274f99ca50b7d32a2a7, type: 3}
+  - {fileID: 5015132378151683380, guid: 3ffddeb9c0181f34b9918cbbfef3f857, type: 3}
+  level: 0
+  levelMax: 0
+  shotsTaken: 0
+  castle: {fileID: 0}
+  mode: 0
+  showing: Show Slingshot
 --- !u!1 &1203273943
 GameObject:
   m_ObjectHideFlags: 0
