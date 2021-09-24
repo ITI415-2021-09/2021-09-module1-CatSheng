@@ -17,7 +17,7 @@ public class ProjectileLine : MonoBehaviour
     void Awake()
     {
         S = this;
-        line = GetComponent<LineREnderer>();
+        line = GetComponent<LineRenderer>();
         line.enabled = false;
         points = new List<Vector3>();
     }
@@ -68,8 +68,8 @@ public class ProjectileLine : MonoBehaviour
         {
             points.Add(pt);
             line.positionCount = points.Count;
-            line.setPOsition(points.Count - 1, lastPoint);
-            line.enabled = true
+            line.SetPosition(points.Count - 1, lastPoint);
+            line.enabled = true;
         }
     }
     public Vector3 lastPoint
