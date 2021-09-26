@@ -42,7 +42,7 @@ public class MissionDemolition : MonoBehaviour
     {
         if (castle != null)
         {
-            Destroy(castle);
+            DestroyImmediate(castle, true);
         }
 
         GameObject[] gos = GameObject.FindGameObjectsWithTag("Projectile");
