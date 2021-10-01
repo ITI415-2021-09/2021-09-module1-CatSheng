@@ -7,7 +7,6 @@ using TMPro;
 public class Player : MonoBehaviour
 {
     public float speed = 0;
-    public TextMeshProUGUI countText;
     public GameObject winTextObject;
 
     private Rigidbody rb;
@@ -20,6 +19,7 @@ public class Player : MonoBehaviour
         rb = GetComponent<Rigidbody>();
 
         winTextObject.SetActive(false);
+
     }
 
     void OnMove(InputValue movementValue)
@@ -46,4 +46,6 @@ public class Player : MonoBehaviour
 
         }
     }
+
+
 }

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4085275491224548728}
   - component: {fileID: 8485186353520468219}
   - component: {fileID: 40766331761772060}
-  - component: {fileID: 4727611189667402833}
+  - component: {fileID: -2145512728666234965}
   m_Layer: 0
   m_Name: Goal
   m_TagString: Untagged
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0e6b4e2f085c24449b1295c2ad3386c7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -97,7 +97,7 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!114 &4727611189667402833
+--- !u!114 &-2145512728666234965
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -106,6 +106,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1164579597679398803}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee3e13a29c543e844bdaddb9f85b3841, type: 3}
+  m_Script: {fileID: 11500000, guid: dc20d7a6c0312bf448f427756a457511, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
