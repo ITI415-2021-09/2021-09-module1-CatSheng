@@ -8,6 +8,7 @@ TagManager:
   - Projectile
   - Bullet
   - Puddle
+  - Goal
   layers:
   - Default
   - TransparentFX
