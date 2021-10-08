@@ -161,7 +161,7 @@ MonoBehaviour:
   speed: 10
   leftAndRightEdge: 9
   chanceToChangeDirection: 0.01
-  secondsBetweenBulletDrops: 6
+  secondsBetweenBulletDrops: 3
 --- !u!1 &8210439149505810787
 GameObject:
   m_ObjectHideFlags: 0
