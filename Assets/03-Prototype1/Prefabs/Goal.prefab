@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -2145512728666234965}
   m_Layer: 0
   m_Name: Goal
-  m_TagString: Untagged
+  m_TagString: Goal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109,4 +109,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc20d7a6c0312bf448f427756a457511, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  winTextObject: {fileID: 0}
+  winTextObject: {fileID: 3533263622266034615, guid: 6d3c45fee6af2fe439a4df5942d8531e, type: 3}
