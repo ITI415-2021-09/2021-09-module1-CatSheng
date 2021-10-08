@@ -73,6 +73,16 @@ public class Prototype_1 : MonoBehaviour
 
             winTextObject.SetActive(true);
 
+            if (Goal_Prototype1.goalMet == true)
+            {
+                DestroyImmediate(maze, true);
+
+                maze = Instantiate<GameObject>(mazes[level]);
+                maze.transform.position = mazePos;
+            }
+
+
+
         }
     }
 
