@@ -9,6 +9,7 @@ public class Prototype_1 : MonoBehaviour
 
     [Header("Set in Inspector")]
     public Vector3 mazePos;
+    public GameObject[] mazes;
 
     [Header("Set Dynamically")]
     public int level;
@@ -31,6 +32,13 @@ public class Prototype_1 : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         winTextObject.SetActive(false);
+
+        level = 0;
+        levelMax = mazes.Length;
+
+        maze = Instantiate<GameObject>(mazes[level]);
+        maze.transform.position = mazePos;
+
     }
 
      public void BulletDestroyed()
