@@ -40,9 +40,9 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Bullet"))
+        if (other.gameObject.CompareTag("Goal"))
         {
-            other.gameObject.SetActive(false);
+            winTextObject.SetActive(true);
 
         }
     }
